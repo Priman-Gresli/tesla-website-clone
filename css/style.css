@@ -1,3 +1,114 @@
 *{
     box-sizing: border-box;
 }
+#menu-div1{
+    width: 1905px;
+    height: 52px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items:center;
+}
+#menu-div{
+    width: 1873px;
+    height: 20px;
+    /* background-color: rgb(60, 255, 0); */
+    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+
+}
+#menu-div > a{
+    color: black;
+}
+#menu-div > a:hover{
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+
+}
+#menu-container{
+    width: 1905px;
+    height: 56px;
+    background-color: rgb(255, 0, 98);
+    display: flex;
+ 
+}
+#bar-1{
+    width: 598px;
+    height: 56px;
+    background-color: rgb(0, 17, 255);
+    padding: 0 0 0 32px;
+    display: flex;
+    align-items: center;
+}
+#bar-1 > svg{
+    width: 152px;
+    height: 32px;
+    padding: 0 16px;
+}
+#bar-1 > svg:hover{
+cursor: pointer;
+} 
+#bar-2{
+    width: 723px;
+    height: 56px;
+    background-color: rgb(94, 255, 0);
+    padding: 0 8px;
+    
+    
+}
+#bar-2 > ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: 700;
+}
+#bar-3{
+    width: 598px;
+    height: 56px;
+    background-color: rgb(255, 17, 0);
+    padding: 0 32px 0 0;
+        
+}
+#bar-3 > ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-weight: 700;
+}
+#bar-3>ul>li{
+    padding: 4px 16px;
+}
+menu{
+    position: fixed;
+}
+/* html,body{
+    padding: 0;
+    margin: 0;
+    scroll-snap-type: y mandatory;
+}
+.image{
+    height: 100vh;
+    scroll-snap-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.image:first-child{
+   background-image: url(image/1.jpeg);         
+}
+.image:nth-child(2){
+    background-image: url(image/3.jpeg);
+}
+.image:nth-child(3){
+    background-image: url(image/4.jpeg);
+}
+.image:last-child{
+    background-image: url(image/2.jpeg);
+} */
