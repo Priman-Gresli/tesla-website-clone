@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "Gotham ssm";
+    src: url(../font/GothamSSm-Book_Web.woff2);
+    ont-weight: 300;
+}
+@font-face{
+    font-family: "Gotham ssm";
+    src: url(../font/GothamSSm-Book_Web\ \(1\).woff2);
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Gotham ssm";
+    src: url(../font/GothamSSm-Medium_Web.woff2);
+    font-weight: 500;
+}
+@font-face{
+    font-family: "Gotham ssm";
+    src: url(../font/GothamSSm-Medium_Web\ \(1\).woff2);
+    font-weight: 500;
+}
+html{
+    font-family: "Gotham ssm",sans-serif;
+    font-weight: 300;
+}
