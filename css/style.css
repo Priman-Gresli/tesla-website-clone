@@ -4,9 +4,10 @@
 #menu-div1{
     width: 1905px;
     height: 52px;
-    /* background-color: aqua; */
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items:center;
+    font-weight: 100;
 }
 #menu-div{
     width: 1873px;
@@ -28,14 +29,14 @@
 #menu-container{
     width: 1905px;
     height: 56px;
-    background-color: rgb(255, 0, 98);
+    /* background-color: rgb(255, 0, 98); */
     display: flex;
  
 }
 #bar-1{
     width: 598px;
     height: 56px;
-    background-color: rgb(0, 17, 255);
+    /* background-color: rgb(0, 17, 255); */
     padding: 0 0 0 32px;
     display: flex;
     align-items: center;
@@ -51,7 +52,7 @@ cursor: pointer;
 #bar-2{
     width: 723px;
     height: 56px;
-    background-color: rgb(94, 255, 0);
+    /* background-color: rgb(94, 255, 0); */
     padding: 0 8px;
     
     
@@ -64,13 +65,20 @@ cursor: pointer;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-    font-weight: 700;
 }
+#bar-2 > ul>li>a{
+text-decoration: none;
+color: #000;
+}
+#bar-3 > ul>li>a{
+text-decoration: none;
+color: #000;
+}
+
 #bar-3{
     width: 598px;
     height: 56px;
-    background-color: rgb(255, 17, 0);
+    /* background-color: rgb(255, 17, 0); */
     padding: 0 32px 0 0;
         
 }
@@ -81,7 +89,7 @@ cursor: pointer;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    font-weight: 700;
+   
 }
 #bar-3>ul>li{
     padding: 4px 16px;
@@ -89,10 +97,10 @@ cursor: pointer;
 menu{
     position: fixed;
 }
-/* html,body{
+html,body{
     padding: 0;
     margin: 0;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 .image{
     height: 100vh;
@@ -101,14 +109,44 @@ menu{
     background-size: cover;
 }
 .image:first-child{
-   background-image: url(image/1.jpeg);         
+   background-image: url(/image/1.jpeg);         
 }
 .image:nth-child(2){
-    background-image: url(image/3.jpeg);
+    background-image: url(/image/2.jpeg);
 }
 .image:nth-child(3){
-    background-image: url(image/4.jpeg);
+    background-image: url(/image/3.jpeg);
+}
+.image:nth-child(4){
+    background-image: url(/image/4.jpeg);
+}
+.image:nth-child(5){
+    background-image: url(/image/5.jpeg);
+}
+.image:nth-child(6){
+    background-image: url(/image/6.webp);
 }
 .image:last-child{
-    background-image: url(image/2.jpeg);
-} */
+    background-image: url(/image/7.jpeg);
+}
+   
+aside{
+    /* position: absolute; */
+    width: 311px;
+    height: 875px;
+    background-color: #FFFFFF;
+    float: right;
+    transform: translateX(50%);
+    /* right: -100%; */
+    transition-property: all;
+    transition-duration: 400ms;
+}
+
+#translate-element {
+    /* position: relative; */
+    transition: transform 0.3s ease-out;
+  }
+  
+  #translate-element:target {
+    transform: translateX(500px); 
+  }
