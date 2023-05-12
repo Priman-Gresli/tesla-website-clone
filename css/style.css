@@ -61,6 +61,15 @@ cursor: pointer;
     
     
 }
+#bar-2 > ul>li{
+    padding: 8px 9px;
+   border-radius: 3px;
+}
+#bar-2 > ul>li:hover{
+
+    background-color: #7a828c28;
+   
+}
 #bar-2 > ul{
     position: relative;
     top: 50%;
@@ -69,6 +78,8 @@ cursor: pointer;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    /* gap: 28px; */
+    /* padding: 4px 6px; */
 }
 anchor{
 text-decoration: none;
