@@ -126,25 +126,25 @@ html,body{
     background-size: cover;
 }
 .image:first-child{
-   background-image: url(/image/1.jpeg);         
+   background-image: url(../image/1.jpeg);         
 }
 .image:nth-child(2){
-    background-image: url(/image/2.jpeg);
+    background-image: url(../image/2.jpeg);
 }
 .image:nth-child(3){
-    background-image: url(/image/3.jpeg);
+    background-image: url(../image/3.jpeg);
 }
 .image:nth-child(4){
-    background-image: url(/image/4.jpeg);
+    background-image: url(../image/4.jpeg);
 }
 .image:nth-child(5){
-    background-image: url(/image/5.jpeg);
+    background-image: url(../image/5.jpeg);
 }
 .image:nth-child(6){
-    background-image: url(/image/6.webp);
+    background-image: url(../image/6.webp);
 }
 .image:last-child{
-    background-image: url(/image/7.jpeg);
+    background-image: url(../image/7.jpeg);
 }
  /*  
 aside{
